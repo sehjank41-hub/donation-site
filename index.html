@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
-    <title>Support Humanity</title>
+    <title>Shahjan Foundation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -34,28 +34,40 @@
             border-radius: 6px;
             cursor: pointer;
         }
+        img.qr {
+            margin-top: 15px;
+            width: 200px;
+            height: 200px;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Shahjan foundation </h1>
+    <h1>Shahjan Foundation</h1>
     <p>Helping Needy Families Directly</p>
 </header>
 
 <div class="container">
     <div class="card">
         <h2>Donate Here</h2>
+
+        <!-- UPI Button -->
         <p>Support us via UPI:</p>
-        <a href="upi://pay?pa=shejab@upi&pn=Shejab&cu=INR" target="_blank">
+        <a href="upi://pay?pa=9205010813@kotak811&pn=Shahjan&tn=Donation&cu=INR" target="_blank">
             <button>Donate via UPI</button>
         </a>
 
+        <!-- UPI QR Code -->
+        <p>Or scan QR code:</p>
+        <img class="qr" src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=upi://pay?pa=9205010813@kotak811&pn=Shahjan&tn=Donation&cu=INR" alt="UPI QR Code">
+
+        <!-- Bank Transfer -->
         <h3>Bank Transfer</h3>
         <p>Account Name: <strong>Shahjan</strong></p>
         <p>Account Number: <strong>5550805617</strong></p>
         <p>IFSC Code: <strong>kkbk0004617</strong></p>
-        <p>Bank Name: <strong> kotak mahindra bank </strong></p>
+        <p>Bank Name: <strong>Kotak Mahindra Bank</strong></p>
     </div>
 </div>
 
